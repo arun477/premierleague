@@ -39,8 +39,9 @@ app.controller('league1Controller', ['$scope','$routeParams','$http', function($
  $scope.checker=0;
  $scope.vediochecker=0;
  $scope.details = {};    
-
-    
+ $scope.totalwin=0;
+ $scope.totalloss=0;
+ $scope.totoldraw=0;   
     //scope for allmatch summaries
     $scope.date;
     $scope.opponent;
@@ -93,8 +94,9 @@ app.controller('league1Controller', ['$scope','$routeParams','$http', function($
     //team individual summary function
    
      $scope.teamAnalysis = function (data, team) { var matchcount =0; var totalscore=0; var playedteams=[];
-        
-                                            
+        var totalwin = 0;
+        var totaldraw = 0;                                         
+        var totalloss = 0;                                   
         for (let i in data.rounds){
        
          
@@ -102,7 +104,28 @@ app.controller('league1Controller', ['$scope','$routeParams','$http', function($
             
                 if(team===data.rounds[i].matches[j].team1.name  ){
                     matchcount +=1; totalscore += data.rounds[i].matches[j].score1; playedteams.push({"matchname":data.rounds[i].name,"date":data.rounds[i].matches[j].date,"opponent":data.rounds[i].matches[j].team2.name, "score":data.rounds[i].matches[j].score2});
-                }else if(team===data.rounds[i].matches[j].team2.name){ matchcount +=1; totalscore += data.rounds[i].matches[j].score2;playedteams.push({"matchname":data.rounds[i].name,"date":data.rounds[i].matches[j].date,"opponent":data.rounds[i].matches[j].team1.name,"score":data.rounds[i].matches[j].score1});}
+                   
+                    if(data.rounds[i].matches[j].score1>data.rounds[i].matches[j].score2){
+                                totalwin +=1;                                                                      } else if(data.rounds[i].matches[j].score1<data.rounds[i].matches[j].score2){
+                        totalloss +=1;
+                    } else if(data.rounds[i].matches[j].score1===data.rounds[i].matches[j].score2){
+                        totaldraw +=1;
+                    } 
+                    
+                } else if(team===data.rounds[i].matches[j].team2.name){ matchcount +=1; totalscore += data.rounds[i].matches[j].score2;playedteams.push({"matchname":data.rounds[i].name,"date":data.rounds[i].matches[j].date,"opponent":data.rounds[i].matches[j].team1.name,"score":data.rounds[i].matches[j].score1});
+                                                                      
+                       if(data.rounds[i].matches[j].score1<data.rounds[i].matches[j].score2){
+                                totalwin +=1;                                                                      } else if(data.rounds[i].matches[j].score1>data.rounds[i].matches[j].score2){
+                        totalloss +=1;
+                    } else if(data.rounds[i].matches[j].score1===data.rounds[i].matches[j].score2){
+                        totaldraw +=1;
+                    }                                                
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                    }
             
         }        
     }            
@@ -111,9 +134,17 @@ app.controller('league1Controller', ['$scope','$routeParams','$http', function($
                 $scope.totalscore=totalscore;
                 $scope.totalmatch =matchcount; 
                 $scope.playedteams = playedteams;
+                $scope.totalwin = totalwin;
+                $scope.totalloss = totalloss;
+                $scope.totaldraw = totaldraw;                                 
                 console.log(totalscore);
                 console.log(matchcount);   
-                console.log(playedteams);              }
+                console.log(playedteams); 
+                console.log(totalwin);
+                console.log(totalloss);
+                console.log(totaldraw);                                 
+                                                 
+                                                 }
      
      
      //final view function
