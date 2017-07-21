@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+    <!-- my own custom stylesheets -->
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/mainsheet.css" type="text/css">
+    <link rel="stylesheet" href="stylesheets/view1sheet.css" type="text/css">
+    
+    
+    
+    
+</head>
+<body ng-controller='league1Controller'>
+ <!-- **************** navbar-section *************** -->
+ <div class="container " >
+    <!-- Just an image -->
+    <div id="item1">
+
+
+      <a class="" href="#">
+        <img src="images/main/logo1.svg" width="5%" alt="" id="custicon">
+    </a>
+</div>
+<div id="item2">
+ 
+ <a href="#!home" id="homelink"> <h4 id="home" ng-click="vediocheck2()">Home</h4></a>
+
+</div>
+
+</div>
+
+<div class="container1"  >
+   <div id="item3">
+     <video id="vid"  id="custvedio" style="opacity:0.6; z-index:-1;" width="100%" height=""  autoplay="autoplay" loop muted>
+       <source src="images/main/backgroundvedio1.mp4" type="video/mp4">
+          <source src="images/main/backgroundvedio1.mp4" type="video/ogg">
+
+          </video> 
+
+      </div> 
+      <div  id="item4" class="container2"  ng-hide="checker===1"><div id="item4inner" ng-click="match2015()" ><h1 id="firstbtn">2015/2016 summary <br><a href="#!le1" id="btn2" style="text-decoration:none; color:darkcyan"><span id="summary1">click here</span></a></h1></div></div> 
+
+      <div id="item5" class="container2"  ng-hide="checker===1"><div id="item5inner"   ng-click="match2017()" ><h1 id="secondbtn">2016/2017 summary <br><a href="#!le2" id="btn1" style="text-decoration:none; color:darkcyan"><span id="summary1">click here</span></a></h1></div></div>  
+
+      <div class="container2" id="item6outter"><div id="item6" ng-view></div></div> 
+
+  </div>
+
+
+  <div class="container2">
+
+      <!-- footer section -->
+      <div id="itemfoot">		
+       <a href="#" id="lim"><h2 id="foot"><span id="cop">&copy;</span>&nbsp;cool_nuke.Ltd</h2></a>
+       <h4 id="contain"> <a href="https://github.com/coolarun" target="_blank"><i class="fa fa-github-alt fa-1x" aria-hidden="true" id="git"></i></a>
+          <a href="https://www.facebook.com/arun.goodboy.1" target="_blank"> <i class="fa fa-facebook fa-1x" aria-hidden="true" id="fb"></i> </a>
+          <a href="https://www.instagram.com/cool_arun_123/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true" id="insta"></i></a></h4>  
+
+      </div>
+
+  </div>
+
+
+
+    <!-- ********************** angular and js scripts  ******************* -->
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <script src="https://use.fontawesome.com/24ff1bfb92.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <script src="data-sets/league1.js"></script>        
+    <script src="data-sets/league2.js"></script> 
+    <script type="text/javascript" src="angular/app/mainapp.js"></script>
+    <script  src="angular/routes/route1.js"></script>
+    <script src="javascripts/script1.js"></script>
+    
+
+    </body>
+
+
+
+</html>

@@ -1,0 +1,51 @@
+.teamlogos {
+    
+    width:10%;
+    margin:1%;
+}
+
+.teamlogos:hover{
+    transform:scale(1.2,1.2);
+}
+
+#allmatchsummary{
+    text-align:center;
+    background-color:lavenderblush;
+    color:black;
+    box-shadow:2px 2px 2px black;
+    font-size:1.1em;
+    padding:0.1%;
+}
+
+#allmatchsummary:hover{
+    transform:scale(1.1);
+    
+}
+
+#matchhead {
+    width:100%;
+}
+
+#matchheadtext{
+    text-align:center;
+    background-color:peachpuff;
+}
+
+#team0{
+    width:100%;
+}
+
+#team1 {
+    width:50%
+}
+
+#team2 {
+    width:50%;
+}
+
+.team1text {
+    font-size:1em;
+    color:white;
+    text-shadow:2px 2px 2px black;
+}
+

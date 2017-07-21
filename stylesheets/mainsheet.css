@@ -1,0 +1,891 @@
+body,html {
+    
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    
+    font-family: 'Cinzel', serif;
+}
+
+
+
+.container {
+    
+    display:-webkit-flex;
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color:skyblue;
+    box-shadow:0px 3px 3px white;
+    
+    
+    
+}
+
+#item1 {
+    width:50%;
+    height:10px;
+    
+}
+#custicon {
+    
+    width:80px;
+    height:80px;
+    margin:0;
+    padding:0;
+    margin-top:20px;
+    margin-left:20px;
+    box-shadow:3px 3px 3px black;
+    background-color:rebeccapurple;
+    float:;
+    z-index:1;
+    
+    
+    
+}
+
+
+#item2 {
+ width:50%;
+ margin:;
+ margin-top:
+ 
+}
+
+#custsearchbox {
+    text-align:right;
+    padding:;
+    margin-right:3%;
+    font-family: 'Cinzel', serif;
+    font-size:1em;
+    color:cadetblue;
+    border-bottom:2px solid cadetblue;
+    word-spacing:0.3em;
+    letter-spacing:0.03em;
+}
+
+#home {
+    text-align:right;
+    padding:;
+    margin-right:3%;
+    font-family: 'Cinzel', serif;
+    font-size:1em;
+    color:white;
+    font-weight:5em;
+    word-spacing:0.3em;
+    letter-spacing:0.03em;
+    cursor:pointer;
+    text-shadow:2px 2px 2px black;
+    
+}
+#homelink {
+    text-decoration:none;
+}
+#home:hover {
+   font-size:1.013em;
+   color:bisque;
+}
+
+#custsearchicon {
+    width:30px;
+    cursor:pointer;
+    
+    
+}
+
+
+.container1 {
+    background-attachment:fixed;
+    display:-webkit-flex;
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    margin:0;
+    padding:0;
+    z-index:-1;
+    
+    
+    
+    
+}
+
+#item3 {
+    width:100%;
+    margin:0;
+    margin-top:-4%;
+    padding:0;
+    background-color:white;
+    z-index:-1;
+    height:;
+    margin-bottom:0;
+    
+}
+
+#custvedio {
+    z-index:-1;
+    
+}
+
+
+
+#item4 {
+    width:40%;
+    margin:0;
+    margin-left:5%;
+    margin-top:-48%;
+    z-index:1;
+    color:white;
+    height:350px;
+    opacity:0.9;
+    background-color:whitesmoke;
+    background-image:;
+    background-repeat:no-repeat;
+    background-position:content;
+    box-shadow:3px 4px 3px black;
+    border-radius:1%;
+    
+    
+}
+
+#item5 {
+    width:40%;
+    margin:0;
+    margin-left:55%;
+    margin-top:-35%;
+    z-index:2;
+    color:white;
+    height:350px;
+    opacity:0.9;
+    background-color:whitesmoke;
+    background-repeat:no-repeat;
+    background-position:content;
+    box-shadow:3px 4px 3px black;
+    border-radius:1%;
+    
+    
+}
+
+#item5inner, #item4inner{
+    width: 96%;
+    background-color:gray;
+    margin:5%;
+}
+
+#item6outter{
+    background-color: whitesmoke;
+}
+
+
+
+
+#item4:hover, #item5:hover {
+    opacity:1;
+}
+#firstbtn, #secondbtn {
+    margin-top:25%;
+    opacity:1;
+    color:darkcyan;
+    text-shadow:2px 2px 3px black;
+
+    text-align:center;
+    line-height:1.5em;
+    font-weight:20em;
+    
+    
+}
+
+#summary1, #summary2 {
+    background-color:bisque;
+    border-radius:1%;
+    padding:2%;
+    padding-top:0;
+    box-shadow:2px 2px 2px black;
+    cursor:pointer;
+    box-shadow:3px 4px 3px black;
+    border-radius:2%;
+    font-size:0.75em;
+    color:white;
+}
+
+
+#item6{
+    margin:auto;
+    width:80%;
+    padding:3%;
+    z-index:4;
+    margin-top:-45%;
+    height:;
+    border-radius:;
+    background-color:whitesmoke;
+    box-shadow:3px 4px 3px black;
+    border-radius:1%;
+    padding:auto;
+    margin-bottom:;
+    
+}
+
+
+#teamstatistics{
+    width:96%;
+    margin:auto;
+    padding:1%;
+    background-color:gray;
+    
+}
+
+#teamindi-1{
+    width:10%;
+    height:;
+}
+
+#teamicon{
+    width:96%;
+    margin:5%;
+    margin-top:10%;
+}
+
+#teamindi-2{
+    width:80%;
+    
+}
+
+#teamindi-3{
+    width:50%;
+    margin:0;
+    color:beige;
+    
+}
+
+#teamindi-4{
+    width:50%;
+    margin:0;
+    color:beige;
+}
+
+#teamname{
+    width:96%;
+    padding:1%;
+    margin-left:2%;
+    text-align:center;
+    background-color:lavenderblush;
+}
+
+.container2 {
+    background-attachment:fixed;
+    display:-webkit-flex;
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    margin:0;
+    padding:0;
+    z-index:5;
+    opacity:0.9;
+    
+}
+
+#itemfoot {
+	width:100%;
+	margin:0;
+	padding:1%;
+	margin-top:;
+    margin-bottom:0;
+    background-color:gray;
+}
+
+
+#foot {
+	text-align:center;
+	padding:2px;
+	font-family: 'Cinzel', serif;
+	color:black;
+	font-weight:2em;
+	text-shadow: ;
+    font-size:1.1em;
+    cursor:pointer;
+    
+}
+
+#cop {
+	font-family: 'Cinzel', serif;
+}
+#lim {
+	text-decoration:none;
+}
+
+#git{
+	margin:3%;
+	color:;
+}
+#insta {
+	margin:3%;
+	color:;
+}
+#contain{
+	text-align:center;
+	color:;
+} 
+#fb, #git, #insta {
+	margin-top:0;
+	margin-bottom:0;
+	color:black;
+}
+#fb:hover, #git:hover, #insta:hover {
+	color:white;
+}
+
+#item6outer{
+    display:none;
+}
+
+
+#view1inner{
+    background-color:gray;
+    opacity:0.9;
+}
+
+#allsummary {
+    text-align:center;
+    background-color:gray;
+    box-shadow:2px 2px 2px black;
+    color:white;
+    cursor:pointer;
+}
+
+#allsummary:hover {
+    transform:scale(1.2);
+}
+
+#allmatches{
+ 
+    
+}
+
+@media screen and (max-width:882px){
+    
+    #firstbtn, #secondbtn {
+        margin-top:25%;
+        opacity:1;
+        color:darkcyan;
+        text-shadow:2px 2px 3px black;
+        font-size:1em;
+        text-align:center;
+        line-height:1.5em;
+        font-weight:20em;
+        
+        
+    }
+    #item4 {
+        width:40%;
+        margin:0;
+        margin-left:5%;
+        margin-top:-45%;
+        z-index:1;
+        color:white;
+        height:200px;
+        opacity:0.9;
+        background-color:whitesmoke;
+        background-image:;
+        background-repeat:no-repeat;
+        background-position:content;
+        box-shadow:3px 4px 3px black;
+        border-radius:1%;
+        
+        
+    }
+    
+    #item5 {
+        width:40%;
+        margin:0;
+        margin-left:55%;
+        margin-top:-45%;
+        z-index:2;
+        color:white;
+        height:200px;
+        opacity:0.9;
+        background-color:whitesmoke;
+        background-repeat:no-repeat;
+        background-position:content;
+        box-shadow:3px 4px 3px black;
+        border-radius:1%;
+        
+        
+    }
+
+    #item5inner, #item4inner{
+        width: 96%;
+        background-color:gray;
+        margin:5%;
+    }
+
+    
+    #home {
+        text-align:right;
+        padding:;
+        margin-right:3%;
+        font-family: 'Cinzel', serif;
+        font-size:0.8em;
+        color:white;
+        font-weight:5em;
+        word-spacing:0.3em;
+        letter-spacing:0.03em;
+        cursor:pointer;
+        text-shadow:2px 2px 2px black;
+        
+        
+    }
+    #homelink {
+        text-decoration:none;
+    }
+    #home:hover {
+       font-size:0.801em;
+       color:bisque;
+   }
+   
+   #custicon {
+    
+    width:70px;
+    height:70px;
+    margin:0;
+    padding:0;
+    margin-top:20px;
+    margin-left:20px;
+    box-shadow:3px 3px 3px black;
+    background-color:rebeccapurple;
+    float:;
+    z-index:1;
+    
+    
+    
+}
+
+#teamindi-1{
+    width:10%;
+    height:;
+}
+
+#teamicon{
+    width:96%;
+    margin:5%;
+    margin-top:10%;
+}
+
+#teamindi-2{
+    width:80%;
+    font-size:0.7em;
+    
+}
+
+#teamindi-3{
+    width:50%;
+    margin:0;
+    color:beige;
+    font-size:0.7em;
+    
+}
+
+#teamindi-4{
+    width:50%;
+    margin:0;
+    color:beige;
+}
+
+#teamname{
+    width:96%;
+    padding:1%;
+    margin-left:2%;
+    text-align:center;
+    background-color:lavenderblush;
+    
+}
+
+#teamstatistics{
+    width:96%;
+    margin:auto;
+    padding:1%;
+    background-color:gray;
+    font-size:0.7em;
+    
+}
+
+#allsummary {
+    text-align:center;
+    background-color:gray;
+    box-shadow:2px 2px 2px black;
+    color:white;
+    cursor:pointer;
+    font-size:0.8em;
+}
+
+#allsummary:hover {
+    transform:scale(1.1);
+}   
+
+#allsummaryicons {
+    width:5%;
+}
+
+
+}
+
+@media screen and (max-width:740px){
+    
+   #firstbtn, #secondbtn {
+    margin-top:25%;
+    opacity:1;
+    color:darkcyan;
+    text-shadow:2px 2px 3px black;
+    font-size:1em;
+    text-align:center;
+    line-height:1.5em;
+    font-weight:20em;
+    
+    
+}
+#item4 {
+    width:40%;
+    margin:0;
+    margin-left:5%;
+    margin-top:-40%;
+    z-index:1;
+    color:white;
+    height:180px;
+    opacity:0.9;
+    background-color:whitesmoke;
+    background-image:;
+    background-repeat:no-repeat;
+    background-position:content;
+    box-shadow:3px 4px 3px black;
+    border-radius:1%;
+    
+    
+}
+
+#item5 {
+    width:40%;
+    margin:0;
+    margin-left:55%;
+    margin-top:-40%;
+    z-index:2;
+    color:white;
+    height:180px;
+    opacity:0.9;
+    background-color:whitesmoke;
+    background-repeat:no-repeat;
+    background-position:content;
+    box-shadow:3px 4px 3px black;
+    border-radius:1%;
+    
+    
+}
+
+#item5inner, #item4inner{
+    width: 96%;
+    background-color:gray;
+    margin:5%;
+}
+
+
+#home {
+    text-align:right;
+    padding:;
+    margin-right:3%;
+    font-family: 'Cinzel', serif;
+    font-size:0.8em;
+    color:white;
+    font-weight:5em;
+    word-spacing:0.3em;
+    letter-spacing:0.03em;
+    cursor:pointer;
+    text-shadow:2px 2px 2px black;
+    
+    
+}
+#homelink {
+    text-decoration:none;
+}
+#home:hover {
+   font-size:0.801em;
+   color:bisque;
+}
+
+#custicon {
+    
+    width:70px;
+    height:70px;
+    margin:0;
+    padding:0;
+    margin-top:20px;
+    margin-left:20px;
+    box-shadow:3px 3px 3px black;
+    background-color:rebeccapurple;
+    float:;
+    z-index:1;
+    
+    
+    
+}
+
+#teamindi-1{
+    width:10%;
+    height:;
+}
+
+#teamicon{
+    width:96%;
+    margin:5%;
+    margin-top:10%;
+}
+
+#teamindi-2{
+    width:80%;
+    font-size:0.7em;
+    
+}
+
+#teamindi-3{
+    width:50%;
+    margin:0;
+    color:beige;
+    font-size:0.7em;
+    
+}
+
+#teamindi-4{
+    width:50%;
+    margin:0;
+    color:beige;
+}
+
+#teamname{
+    width:96%;
+    padding:1%;
+    margin-left:2%;
+    text-align:center;
+    background-color:lavenderblush;
+    
+}
+
+#teamstatistics{
+    width:96%;
+    margin:auto;
+    padding:1%;
+    background-color:gray;
+    font-size:0.7em;
+    
+}
+
+#allsummary {
+    text-align:center;
+    background-color:gray;
+    box-shadow:2px 2px 2px black;
+    color:white;
+    cursor:pointer;
+    font-size:0.8em;
+}
+
+#allsummary:hover {
+    transform:scale(1.1);
+}   
+
+#allsummaryicons {
+    width:5%;
+}
+
+#foot {
+	text-align:center;
+	padding:2px;
+	font-family: 'Cinzel', serif;
+	color:black;
+	font-weight:2em;
+	text-shadow: ;
+    font-size:0.8em;
+    cursor:pointer;
+    
+}
+
+}
+
+
+@media screen and (max-width:550px){
+
+
+   #firstbtn, #secondbtn {
+    margin-top:15%;
+    opacity:1;
+    color:darkcyan;
+    text-shadow:2px 2px 3px black;
+    font-size:0.9em;
+    text-align:center;
+    line-height:1.5em;
+    font-weight:20em;
+    
+    
+}
+#item4 {
+    width:40%;
+    margin:0;
+    margin-left:5%;
+    margin-top:-45%;
+    z-index:1;
+    color:white;
+    height:140px;
+    opacity:0.9;
+    background-color:whitesmoke;
+    background-image:;
+    background-repeat:no-repeat;
+    background-position:content;
+    box-shadow:3px 4px 3px black;
+    border-radius:1%;
+    
+    
+}
+
+#item5 {
+    width:40%;
+    margin:0;
+    margin-left:55%;
+    margin-top:-45%;
+    z-index:2;
+    color:white;
+    height:140px;
+    opacity:0.9;
+    background-color:whitesmoke;
+    background-repeat:no-repeat;
+    background-position:content;
+    box-shadow:3px 4px 3px black;
+    border-radius:1%;
+    
+    
+}
+
+#item5inner, #item4inner{
+    width: 96%;
+    background-color:gray;
+    margin:5%;
+}
+
+
+#home {
+    text-align:right;
+    padding:;
+    margin-right:3%;
+    font-family: 'Cinzel', serif;
+    font-size:0.7em;
+    color:white;
+    font-weight:5em;
+    word-spacing:0.3em;
+    letter-spacing:0.03em;
+    cursor:pointer;
+    text-shadow:2px 2px 2px black;
+    
+    
+}
+#homelink {
+    text-decoration:none;
+}
+#home:hover {
+   font-size:0.7em;
+   color:bisque;
+}
+
+#custicon {
+    
+    width:50px;
+    height:50px;
+    margin:0;
+    padding:0;
+    margin-top:20px;
+    margin-left:20px;
+    box-shadow:3px 3px 3px black;
+    background-color:rebeccapurple;
+    float:;
+    z-index:1;
+    
+    
+    
+}
+
+#teamindi-1{
+    width:10%;
+    height:;
+}
+
+#teamicon{
+    width:96%;
+    margin:5%;
+    margin-top:10%;
+}
+
+#teamindi-2{
+    width:80%;
+    font-size:0.7em;
+    
+}
+
+#teamindi-3{
+    width:50%;
+    margin:0;
+    color:beige;
+    font-size:0.7em;
+    
+}
+
+#teamindi-4{
+    width:50%;
+    margin:0;
+    color:beige;
+}
+
+#teamname{
+    width:96%;
+    padding:1%;
+    margin-left:2%;
+    text-align:center;
+    background-color:lavenderblush;
+    
+}
+
+#teamstatistics{
+    width:96%;
+    margin:auto;
+    padding:1%;
+    background-color:gray;
+    font-size:0.6em;
+    
+}
+
+#allsummary {
+    text-align:center;
+    background-color:gray;
+    box-shadow:2px 2px 2px black;
+    color:white;
+    cursor:pointer;
+    font-size:0.7em;
+}
+
+#allsummary:hover {
+    transform:scale(1.1);
+}   
+
+#allsummaryicons {
+    width:5%;
+}
+
+#foot {
+	text-align:center;
+	padding:2px;
+	font-family: 'Cinzel', serif;
+	color:black;
+	font-weight:2em;
+	text-shadow: ;
+    font-size:0.8em;
+    cursor:pointer;
+    
+}
+
+
+
+
+}
